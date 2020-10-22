@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+   
+</head>
+
+<body>
+
+   <header class="header" id="1">
+      <div class="container">
+         <div class="header__bl">
+            <div class="header__logo">
+               <a href="https://www.youtube.com"><img src=".//img/header/logo.png" alt="logo"></a>
+               
+            </div>
+            <div class="header__menu">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a href="#1">О комплексе</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#2">Район</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#3">Каталог квартир</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#4">Ипотека</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="#5">Контакты</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         
+         <div class="menu__burger">
+            <span></span>
+         </div>
+         <div class="menu">
+            <ul>
+               <li class="menu__i"><a href="#1">О комплексе</a></li>
+               <li class="menu__i"><a href="#2">Район</a></li>
+               <li class="menu__i"><a href="#3">Каталог квартир</a></li>
+               <li class="menu__i"><a href="#4">Ипотека</a></li>
+               <li class="menu__i"><a href="#5">Контакты</a></li>
+            </ul>
+         </div>
+         
+      </div>
+      <div class="header__block">
+         <div class="header__title "> Жилой комплекс <br>
+            в историческом центре</div>
+         <div class="header__content">
+            <img src="./img/main/mouse.png" alt="">
+         </div>
+         <div class="header__footer">
+            <div class="header__box">
+               <img src="./img/main/placeholder.svg" alt="picture">
+               <a href="#4"><div class="text">Наб. реки Фонтанки 10-15</div></a>
+               
+            </div>
+            <div class="header__box">
+               <img src="./img/main/phone-call.svg" alt="picture">
+               <a href="tel:+78121234567"><div class="text">8 (812) 123-45-67</div></a>
+               
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="advantages apartment__bg">
+      <div class="advantages__content">
+         <div class="advantages__box">
+            <img src=".//img/advantages/bench.png" alt="picture">
+            <div class="advantages__text">Рядом исторические <br>парки и скверы</div>
+         </div>
+         <div class="advantages__box">
+            <img src=".//img/advantages/Group.png" alt="picture">
+            <div class="advantages__text">Полностью <br>обустроенный</div>
+         </div>
+         <div class="advantages__box">
+            <img src=".//img/advantages/fountain.png" alt="picture">
+            <div class="advantages__text">10 фонтанов <br>на территории</div>
+         </div>
+         <div class="advantages__box">
+            <img src=".//img/advantages/bicycle.png" alt="picture">
+            <div class="advantages__text">6 км <br> велодорожек</div>
+         </div>
+      </div>
+
+   </section>
+   <section class="apartment apartment__bg">
+      <div class="container">
+         <div class="apartment__title title__apartment" id="3">Наши квартиры</div>
+         <div class="apartment__block">
+            <div class=" apartment__image"></div>
+            <div class="apartment__image"></div>
+            <div class="apartment__image"></div>
+            <div class="apartment__image"></div>
+         </div>
+      </div>
+   </section>
+   <section class="look" id="4">
+      <div class="container">
+         <div class="look__block">
+            <div class="look__box">
+               <div class="title__apartment look__title">Хотите посмотреть?</div>
+               <div class="look__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </div>
+            </div>
+            <div class="look__box">
+               <form action="">
+                  <div class="form__block">
+                     <input class="look__input" type="text" required placeholder="Ваше имя">
+                     <input class="look__input" type="tel" required placeholder="Ваш телефон" id="phone">
+                     <div class="look__text1">*Мы никому не передаем ваши данные. <br> 
+                        И не сохраняем ваш номер в базу.</div>
+                     <button   class="look__button look__btn">Посмотреть район</button>
+                     </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="back apartment__bg">
+      <div class="container">
+         <div class="back__movie">
+            <img src="./img/back/back.png" alt="back">
+            <div class="back__click">
+               <a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg"  data-width="600" data-height="300" class="play"><img src="./img/back/play-button.svg" alt="play-button" class="back__img"></a>
+            </div>
+         </div>
+         <div class="back__maps" id="2">
+            <div class="title__apartment back__subtitle">Район на карте</div>
+            <div class="back__ya">
+               <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A130a1a776d09c193e955ede06cd88c69aaad26e6b94eafe6ef4ab19bc5789f5e&amp;width=100%25&amp;height=358&amp;lang=ru_RU&amp;scroll=false"></script> 
+            </div>
+         </div>
+         <div class="back__form">
+            <div class="title__apartment back__subtitle subtitle__back">Есть вопросы?</div>
+            <form action="">
+               <div class="form__block back__block">
+                  <div class="look__text1 back__text1">*Мы никому не передаем ваши данные. <br> 
+                     И не сохраняем ваш номер в базу.</div>
+                  <input class="look__input" type="text" required placeholder="Ваше имя" >
+                  <input class="look__input" type="tel" required placeholder="Ваш телефон" id="phone">
+                  <button   class="look__button look__btn">Посмотреть район</button>
+                  </div>
+            </form>
+         </div>
+      </div>
+   </section>
+   <footer class="footer" id="5">
+      <div class="container">
+         <div class="footer__block">
+            <div class="header__logo footer__box">
+               <a href="https://www.youtube.com"><img src=".//img/header/logo.png" alt="logo"></a>
+            </div>
+            <div class="footer__menu header__menu  footer__box">
+               <ul class="footer__list">
+                  <li class="footer__item">
+                     <a href="#">О комплексе</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#">Район</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#">Каталог квартир</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#">Ипотека</a>
+                  </li>
+                  <li class="footer__item">
+                     <a href="#">Контакты</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__contact footer__box">
+               <div class="footer__ct footer__bt">Адрес: Наб. реки Фонтанки 10-15</div>
+               <div class="footer__tel footer__bt"><a href="tel:+78121234567">Телефон: 8 (812) 123-45-67</a></div>
+               <div class="footer__time footer__bt">Отдел продаж: 10:00 - 20:00</div>
+               <div class="footer__mail footer__bt"> <a href="mailto:vlad@htmlbook.ru">E-mail: <span class="footer__color">vip@housevip.ru</span></a></div>
+               <div class="footer__line">
+                  <a href="https://www.youtube.com" class="footer__icon"><img src="./img/footer/youtube.svg" alt="picture"></a>
+                  <a href="https://vk.com" class="footer__icon"><img src="./img/footer/vk.svg" alt="picture"></a>
+                  <a href="https://www.facebook.com" class="footer__icon"><img src="./img/footer/facebook.svg" alt="picture"></a>
+                  <a href="https://www.instagram.com" class="footer__icon"><img src="./img/footer/instagram.svg" alt="picture"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+   <script src="./js/main.js"></script>
+
+</body>
+
+</html>
