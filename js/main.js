@@ -23,15 +23,4 @@ menuItem.forEach(function (e) {
 });
 
 
-$(document).ready(function(){
-   $("#phone").mask("(999) 999-9999");
-});
-
-$(document).scroll(function(){
-   if ($(this).scrollTop()
-   );
-});
-
-
-
 
